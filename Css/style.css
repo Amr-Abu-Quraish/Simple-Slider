@@ -1,0 +1,53 @@
+.item{
+    position: relative;
+}
+.item .caption{
+position: absolute;
+bottom: 20px;
+left: 0;
+right: 0;
+margin: auto;
+width: 80%;
+background-color: rgba(0 0 0 / 0.7);
+color: white;
+}
+.item  img {
+    cursor: pointer;
+}
+
+.light-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0 0 0 / 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+}
+
+.light-container .box {
+    width: 80%;
+    height: 80%;
+    background-image: url(../images/1.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.light-container .box i {
+    font-size: 30px;
+    color: black;
+    margin: 15px;
+    cursor: pointer;
+
+} 
+.light-container .box #close {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
